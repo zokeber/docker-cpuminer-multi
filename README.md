@@ -2,7 +2,7 @@
 
 This repository contains a Dockerfile to build a Docker Image for [CPUminer Multi](https://github.com/tpruvot/cpuminer-multi) in CentOS 7
 
-[![Build Status](https://travis-ci.org/zokeber/docker-cpuminer-multi.svg?branch=master)](https://travis-ci.org/zokeber/docker-cpuminer)
+[![Build Status](https://travis-ci.org/zokeber/docker-cpuminer-multi.svg?branch=master)](https://travis-ci.org/zokeber/docker-cpuminer-multi)
 
 ## Base Docker Image
 
