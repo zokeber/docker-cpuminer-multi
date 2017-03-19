@@ -5,7 +5,7 @@
 # docker build -t zokeber/cpuminer-multi:latest .
 #
 # Create:
-# docker create -it --name cpuminer zokeber/cpuminer-multi -a cryptonight -o stratum+tcp://<url>:<port> -u <username> -p <password>
+# docker create -it --name cpuminer zokeber/cpuminer-multi -a <algorithm> -o stratum+tcp://<url>:<port> -u <username> -p <password>
 #
 # Start:
 # docker start cpuminer

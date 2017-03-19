@@ -32,7 +32,7 @@ Another alternatively, you can build an image directly from Github:
 
 **Create container:**
 
-``` docker create -it --name cpuminer zokeber/cpuminer-multi -a cryptonight -o stratum+tcp://<url>:<port> -u <username> -p <password>```
+``` docker create -it --name cpuminer zokeber/cpuminer-multi -a <algorithm> -o stratum+tcp://<url>:<port> -u <username> -p <password>```
 
 **Start container:**
 
@@ -40,7 +40,7 @@ Another alternatively, you can build an image directly from Github:
 
 **Another way to start a cpuminer-multi container:**
 
-``` docker run -d --name cpuminer zokeber/cpuminer-multi -a cryptonight -o stratum+tcp://<url>:<port> -u <username> -p <password>```
+``` docker run -d --name cpuminer zokeber/cpuminer-multi -a <algorithm> -o stratum+tcp://<url>:<port> -u <username> -p <password>```
 
 **Show cpuminer settings:**
 
