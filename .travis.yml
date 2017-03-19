@@ -11,6 +11,5 @@ script:
   - docker build -t zokeber/cpuminer-multi:latest .
   - docker create -it --name cpuminer-multi zokeber/cpuminer-multi:latest
   - docker start cpuminer-multi
-  - docker exec -it cpuminer-multi cpuminer --help 
   - docker stop cpuminer-multi
   - docker rm -f cpuminer-multi
